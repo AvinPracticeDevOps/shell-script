@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DISK_USAGE=$(df -hT | grep xfs)
-THRESHOLD=10
+THRESHOLD=6
 
 # FOLDER=$(df -hT | grep xfs | awk -F " " '{print $NF}')
 
