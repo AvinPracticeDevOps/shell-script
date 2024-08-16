@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIR=/tmp/logs
+SOURCE_DIR=/tmp/logs/
 
 
 while IFS= read -r line
