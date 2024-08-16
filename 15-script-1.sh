@@ -8,4 +8,5 @@ echo "------------------------------------"
 #1st way
 ./16-script-2.sh
 
+echo "------------------------------------"
 echo "After calling script-2 Name: $NAME"
