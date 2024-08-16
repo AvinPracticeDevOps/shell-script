@@ -8,4 +8,4 @@ echo "present working directory: $PWD"
 echo "Home directory: $HOME"
 echo "PID of current shell script: $$"
 sleep 20 &
-ehco "PID of last background command: $!"
+echo "PID of last background command: $!"
