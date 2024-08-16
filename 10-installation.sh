@@ -13,6 +13,7 @@ dnf install mysqll -y
 if [ $? -ne 0 ]
 then
     echo "FAILED"
+    exit 0
 else
     echo "SUCCESS"
 fi
