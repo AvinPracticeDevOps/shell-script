@@ -25,6 +25,7 @@ check_exit(){
         exit 1
     else
         echo -e "$GREEN $2... is SUCCESS $N"
+    fi
 }
 
 dnf install git -y &>>$LOGFILE
