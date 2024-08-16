@@ -2,6 +2,7 @@
 
 DISK_USAGE=$(df -hT | grep xfs)
 THRESHOLD=6
+MESSAGE=""
 
 # FOLDER=$(df -hT | grep xfs | awk -F " " '{print $NF}')
 
