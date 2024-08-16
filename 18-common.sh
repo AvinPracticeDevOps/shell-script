@@ -7,7 +7,7 @@ Error_Handler(){
     echo "Error_Description: $2"   
 }
 
-trap 'Error_Handler '${LINENUMBER}' "$BASH_COMMAND"'ERR
+trap 'Error_Handler ${LINENUMBER} "$BASH_COMMAND"'ERR
 
 USERID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
