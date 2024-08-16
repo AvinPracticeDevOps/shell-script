@@ -2,6 +2,7 @@
 
 source ./18-common.sh
 
+check_exit
 
 dnf install git -y &>>$LOGFILE
 
