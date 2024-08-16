@@ -6,6 +6,6 @@ echo "Before calling script-2 Name:$NAME"
 echo "PID of script-1: $$"
 
 #1st way
-./16-scirpt-2.sh
+./16-script-2.sh
 
 echo "After calling script-2 Name: $NAME"
