@@ -27,12 +27,12 @@ else
     echo -e "$R you are super user $N"
 fi
 
-check_exit(){
-    if [ $1 -ne 0 ]
-    then
-        echo -e "$R $2.....is FAILED $N"
+# check_exit(){
+#     if [ $1 -ne 0 ]
+#     then
+#         echo -e "$R $2.....is FAILED $N"
         
-    else
-        echo -e "$Y $2.....is SUCCESS $N"
-    fi
-}
+#     else
+#         echo -e "$Y $2.....is SUCCESS $N"
+#     fi
+# }
