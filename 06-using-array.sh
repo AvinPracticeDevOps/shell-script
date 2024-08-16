@@ -2,4 +2,4 @@
 
 NAMES=("Avinash" "Kumar" "Bandela")
 
-eccho "FirstName is $NAMES[0] "
+eccho "FirstName is: ${NAMES[0]} "
