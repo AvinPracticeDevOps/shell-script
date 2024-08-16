@@ -12,10 +12,10 @@ fi
 dnf install mysqll -y
 if [ $? -ne 0 ]
 then
-    echo "FAILED"
-    exit 0
+    echo "Installation is FAILED"
+    exit 1
 else
-    echo "SUCCESS"
+    echo "Installation is SUCCESS"
 fi
 
 echo "Is script proceeding"
