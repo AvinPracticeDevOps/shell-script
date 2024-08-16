@@ -24,4 +24,4 @@ check_exit $? "Installing git"
 dnf install mysqll -y
 check_exit $? "Installing mysql"
 
-echo "Is script proceeding"
+echo "Is script proceeding..!"
