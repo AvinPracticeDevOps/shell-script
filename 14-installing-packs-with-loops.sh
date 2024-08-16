@@ -8,7 +8,7 @@ LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
-N="\[0m"
+N="\e[0m"
 
 if [ $USERID -ne 0 ]
 then
