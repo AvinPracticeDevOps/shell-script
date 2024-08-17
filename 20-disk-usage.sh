@@ -2,7 +2,7 @@
 
 DISK_USAGE=$(df -hT | grep xfs)
 DISK_THRESHOLD=6
-MESSAGE=""
+MESSAGE="" #creating empty variable to send mail
 
 while IFS= read -r line
 do 
@@ -11,8 +11,8 @@ do
 
     if [ $USAGE -gt $DISK_THRESHOLD ]
     then
-        MESSAGE+="$FOLDER is more usage than $DISK_THRESHOLD, current usage is: $USAGE"
+        MESSAGE+="$FOLDER is more usage than $DISK_THRESHOLD, current usage is: $USAGE \n"
     fi
 done <<< $DISK_USAGE
 
-echo "$MESSAGE"
+echo -e "$MESSAGE"
